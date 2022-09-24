@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(116, 113, 113, 0.15);
+}
+
+.mybookings-container{
+    width:100%;
+}
+
+.mybookings-wrapper{
+    width: 70%;
+    background-color:white; 
+    margin: 0 auto;
+}
+/*Status Container*/
+
+.status-container{
+    width:100%;
+    height:65px;
+    }
+    
+    .status-wrapper{
+        width: 100%;
+        height:100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    .payment-status-wrapper{
+        width: 33.3%;
+        height:100%;
+        text-align: center;
+        font-weight:600;
+        font-size:19px;
+    }
+    
+    .estimated-delivery-status-wrapper{
+        width: 33.%;
+        height:100%;
+        text-align: center;
+        font-weight:600;
+        font-size:19px;
+    }
+    
+    .delivery-status-wrapper{
+        width: 33.3%;
+        height:100%;
+        text-align: center;
+        font-weight:600;
+        font-size:19px;
+    }
+    
+    #paymentpending,#deliverypending{
+        color:red;
+        font-size:18px;
+    }
+    
+    #paymentpaid,#estimated,#delivery{
+        color:green;
+        font-size:18px;
+    }
+    
+    #estimatedred{
+        color:red;
+        font-size:18px;
+    }
+    
+    .bookingno-wrapper{
+        margin-top: 30px;
+        width:100px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    #last-hr{
+        height: 2px;
+        background-color:gray;
+    }

@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(41, 40, 40);
+}
+
+.admin-panel-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid white;
+}
+
+.left-panel-container {
+    height: 100vh;
+    width: 13%;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    /* background-color: red; */
+}
+
+.left-panel-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-wrapper {
+    width: 100%;
+    height: 45px;
+    /* background-color: yellow; */
+    margin-bottom: 3px;
+}
+
+.item-wrapper:hover {
+    border: 1px solid white;
+}
+
+.first-item-wrapper {
+    position: relative;
+}
+
+.first-item {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.first-item-wrapper:hover .drop-down-contents {
+    visibility: visible;
+}
+
+.drop-down-contents {
+    visibility: hidden;
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    left: 198px;
+    white-space: nowrap;
+}
+
+.drop-down-contents:hover {
+    visibility: visible;
+}
+
+.update,
+.add,
+.delete {
+    height: 44.8px;
+    width: 120px;
+    padding-top: 10px;
+    background-color: rgb(41, 40, 40);
+}
+
+.update:hover,
+.add:hover,
+.delete:hover {
+    border: 1px solid white;
+}
+
+#update-a {
+    color: white;
+    text-decoration: none;
+}
+
+#add-a {
+    color: white;
+    text-decoration: none;
+}
+
+#delete-a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Bookings*/
+
+#bookings-a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.bookings {
+    width: 100%;
+    height: 100%;
+    padding-top: 9px;
+}
+
+
+/*sales*/
+
+#sales-a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sales {
+    width: 100%;
+    height: 100%;
+    padding-top: 9px;
+}
+
+
+/*Client Info*/
+
+#client-a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.client-info {
+    width: 100%;
+    height: 100%;
+    padding-top: 9px;
+}
+
+
+/*change password*/
+
+#change-password-a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.change-password-info {
+    width: 100%;
+    height: 100%;
+    padding-top: 9px;
+}
+
+
+/*Tax update*/
+
+#tax-a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tax-update-info {
+    width: 100%;
+    height: 100%;
+    padding-top: 9px;
+}
+
+#addsup-a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+ #add-supplier-a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+#order-a {
+    width: 100%;
+    height: 100%;
+    padding-top: 9px;
+    text-align:center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.supplier-info{
+    padding-top: 12px;
+}
+
+.drop-down-contents2{
+    position:absolute;
+    top:496px;
+    left:198px;
+    width:180px;
+    visibility:hidden;
+}
+
+.seventh-item-wrapper:hover .drop-down-contents2 {
+    visibility: visible;
+}
+
+.update{
+    text-align:center;
+}
+
+/*right-container*/
+
+.right-container {
+    width: 87%;
+    height: 100%;
+}
+
+.right-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.client-info-header-wrapper {
+    height: 60px;
+    width: 100%;
+}
+
+#client-info-header {
+    color: white;
+    padding-left: 40px;
+}
+
+#t3 {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+#t3 tr th {
+    color: white;
+    font-size: 18px;
+    height: 40px;
+}
+
+#t3,
+th,
+tr,
+td {
+    border: 1px solid white;
+    height: 40px;
+    color: white;
+}
+
+#t3 tr #bname3 {
+    width: 260px;
+}
+
+.nav-left li a {
+    color: white;
+}
+
+.dropbtn {
+    color: white;
+}
+
+.nav-right li a {
+    color: white;
+}
+
+.speciala {
+    color: white;
+}
+
+ul img {
+    color: white;
+}

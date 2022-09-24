@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+            #div1{
+                background-color: blue;
+                height: 500px;
+                width: 500px;
+            }
+            #div2{
+                background-color: red;
+                width: 75%;
+                height: 75%;
+            }
+            #div3{
+                background-color: green;
+                width: 75%;
+                height: 75%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="div1" onmouseover="mouseover(this.id)" onmouseout="mouseout(this.id)">
+            <div id="div2">
+                <div id="div3" onmouseover="mouseover(this.id)" onmouseout="mouseout(this.id)">
+
+                </div>
+            </div>
+        </div>
+        <script>
+            function mouseout(str){
+                console.log(str);
+                var div=document.getElementById(str);
+                div.style.backgroundColor="Black";
+            }
+
+            function mouseover(str){
+                console.log(str);
+                var div=document.getElementById(str);
+                div.style.backgroundColor="Yellow";
+            }
+        </script>
+    </body>
+</html>

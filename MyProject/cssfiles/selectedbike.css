@@ -1,0 +1,433 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: rgba(116, 113, 113, 0.15);
+    }
+    
+    .considered-info-wrapper {
+        position: absolute;
+        /*top 330 left 510*/
+        top: 330px;
+        left: 510px;
+        height: 150px;
+        width: 450px;
+        border-radius: 40px 20px;
+        /* background-color: rgba(144, 238, 144, 0.692); */
+        /* background-color:#04B486; */
+        background-color:white;
+        border:3px solid orange;
+        transition: .9s;
+        visibility: visible;
+    }
+    
+    #ok{
+        text-align: center;
+        height:30px;
+        width:70px;
+        background-color: #03805e;
+        margin:5px auto 0 auto;
+        cursor: pointer;
+        padding-top:5px;
+    }
+    
+    #ok:hover{
+        border:1px solid black;
+        box-shadow: inset 4px 4px 0 #03805e;
+        background-color:#03644a;
+    }
+    
+    .booked-info-wrapper {
+        position: absolute;
+        top: 330px;
+        left: 540px;
+        height: 200px;
+        width: 450px;
+        border-radius: 12px;
+        /* background-color: rgba(144, 238, 144, 0.692); */
+        background-color:lighten(#04B486, 5%);
+        border:1px solid white;
+        transition: .9s;
+        visibility: visible;
+        background-color:white;
+        border:3px solid orange;
+    }
+    
+    .sold-info-wrapper {
+        position: absolute;
+        top: 330px;
+        left: 540px;
+        height: 150px;
+        width: 450px;
+        border-radius: 12px;
+        /* background-color: rgba(144, 238, 144, 0.692); */
+        background-color:lighten(#04B486, 5%);
+        border:1px solid white;
+        transition: .9s;
+        visibility: visible;
+        background-color:white;
+        border:3px solid orange;
+    }
+    
+    .cart-info-wrapper{
+        position: absolute;
+        /*top 330 left 510*/
+        top: 330px;
+        left: 595px;
+        height: 90px;
+        width: 250px;
+        border-radius: 40px 20px;
+        /* background-color: rgba(144, 238, 144, 0.692); */
+        /* background-color:#04B486; */
+        background-color:white;
+        border:3px solid orange;
+        transition: .9s;
+        visibility: visible;
+    }
+    
+    #considered-info {
+        padding-top: 20px;
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+
+    .heading-wrapper {
+        width: 70%;
+        height: 50px;
+        margin: 0 auto;
+    }
+    
+    .selected-bike-container {
+        margin-top: 10px;
+        height: 80%;
+        width: 100%;
+    }
+    
+    .selected-bike-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        height: 100%;
+        width: 70%;
+        margin: 0 auto;
+        background-color: white;
+    }
+    
+    .bikeimages-container {
+        margin: auto auto;
+        width: 75%;
+        height: 98%;
+    }
+    
+    .bikeimages-wrapper {
+        margin: auto auto;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .main-image-container {
+        width: 96%;
+        height: 80%;
+    }
+    
+    hr {
+        width: 90%;
+        height: 4px;
+        margin: 0 auto;
+    }
+    
+    #hr1 {
+        position: absolute;
+        height: 2px;
+        width: 300px;
+        transform: rotate(90deg);
+        left: 840px;
+        top: 335px;
+    }
+    
+    #hr2 {
+        height: 4px;
+        width: 240px;
+    }
+    
+    #bikeimage {
+        padding-left: 65px;
+        height: 70%;
+        width: 90%;
+    }
+    
+    .all-images-flex-container {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image {
+        height: 67%;
+        width: 18%;
+        padding-right: 10px;
+    }
+    
+    #img1,
+    #img2,
+    #img3,
+    #img4 {
+        height: 100%;
+        width: 100%;
+    }
+    /*Bike Name and Price*/
+    
+    .bottom-half-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 133.3%;
+        height: 130px;
+    }
+    
+    .bike-name-price-container {
+        position: relative;
+        height: 100%;
+        width: 75%;
+        display: flex;
+    }
+    
+    .book-now-btn {
+        position: absolute;
+        top: 70px;
+        left: 100px;
+        width: 120px;
+        height: 35px;
+        border-radius: 4px;
+        box-shadow: 2.5px 2.5px 2.5px 0 gray;
+        background-color: rgb(37, 190, 31);
+        padding-left: 15px;
+        padding-top: 10.5px;
+    }
+    
+    .book-now-btn:hover {
+        transition: .3s;
+        background-color: rgb(21, 114, 18);
+    }
+    
+    .add-to-cart-btn {
+        position: absolute;
+        top: 70px;
+        left: 250px;
+        width: 120px;
+        height: 35px;
+        border-radius: 4px;
+        box-shadow: 2.5px 2.5px 2.5px 0 gray;
+        background-color: rgb(252, 40, 40);
+        padding-left: 10px;
+        padding-top: 10.5px;
+    }
+    
+    .add-to-cart-btn:hover {
+        transition: .3s;
+        background-color: rgb(255, 6, 6);
+    }
+    
+    .remove-from-cart-btn {
+        position: absolute;
+        top: 70px;
+        left: 250px;
+        width: 170px;
+        height: 35px;
+        border-radius: 4px;
+        box-shadow: 2.5px 2.5px 2.5px 0 gray;
+        background-color: rgb(252, 40, 40);
+        padding-left: 15px;
+        padding-top: 10.5px;
+        visibility: visible;
+    }
+    
+    .remove-from-cart-btn:hover {
+        transition: .3s;
+        background-color: rgb(255, 6, 6);
+    }
+    
+    #book-a,
+    #add-a,
+    #remove-a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .name-wrapper {
+        height: 100%;
+        width: 60%;
+    }
+    
+    #bike-name {
+        padding-top: 20px;
+        font-size: 26px;
+        text-align: center;
+        font-family: 'Architects Daughter', cursive;
+        font-weight: 600;
+        color: rgb(255, 37, 37);
+    }
+    
+    .price-wrapper {
+        height: 100%;
+        width: 50%;
+    }
+    
+    #ex-showroom-text {
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Francois One', sans-serif;
+    }
+    
+    #rupee-sign {
+        display: inline-block;
+        padding-top: 40px;
+        padding-left: 90px;
+        font-size: 25px;
+        font-family: 'Courgette', cursive;
+    }
+    
+    #onwards {
+        font-size: 16px;
+        font-family: 'Courgette', cursive;
+    }
+    
+    .brand-logo-wrapper {
+        height: 100%;
+        width: 30%;
+    }
+    
+    #image-a {
+        text-decoration: none;
+    }
+    
+    #logo {
+        padding-left: 75px;
+        padding-top: 10px;
+        height: 80%;
+        width: 78%;
+    }
+    /*Bike Images ends*/
+    
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        height: 77%;
+        margin: 0 auto;
+    }
+    
+    .bike-mileage-wrapper {
+        height: 20%;
+        width: 100%;
+    }
+    
+    .bike-engine-wrapper {
+        height: 20%;
+        width: 100%;
+    }
+    
+    .bike-power-wrapper {
+        height: 20%;
+        width: 100%;
+    }
+    
+    .bike-kerbweight-wrapper {
+        height: 20%;
+        width: 100%;
+    }
+    
+    .bike-abs-wrapper {
+        height: 20%;
+        width: 100%;
+    }
+    
+    #bike-mileage {
+        padding-top: 24px;
+        width: 100%;
+        text-align: center;
+        font-size: 23px;
+        font-family: 'Courgette', cursive;
+    }
+    
+    #bike-mileage-text {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Francois One', sans-serif;
+    }
+    
+    #bike-engine {
+        padding-top: 24px;
+        width: 100%;
+        text-align: center;
+        font-size: 23px;
+        font-family: 'Courgette', cursive;
+    }
+    
+    #bike-engine-text {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Francois One', sans-serif;
+    }
+    
+    #bike-power {
+        padding-top: 24px;
+        width: 100%;
+        text-align: center;
+        font-size: 23px;
+        font-family: 'Courgette', cursive;
+    }
+    
+    #bike-power-text {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Francois One', sans-serif;
+    }
+    
+    #bike-kerbweight {
+        padding-top: 24px;
+        width: 100%;
+        text-align: center;
+        font-size: 23px;
+        font-family: 'Courgette', cursive;
+    }
+    
+    #bike-kerbweight-text {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Francois One', sans-serif;
+    }
+    
+    #bike-abs {
+        padding-top: 24px;
+        width: 100%;
+        text-align: center;
+        font-size: 23px;
+        font-family: 'Courgette', cursive;
+    }
+    
+    #bike-abs-text {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Francois One', sans-serif;
+    }
+    /*footer*/
+    
+    .footer-container {
+        width: 100%;
+        height: 200px;
+        background-color: #3b8ff0;
+        margin-top: 60px;
+    }

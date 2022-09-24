@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(116, 113, 113, 0.15);
+}
+
+.advance-invoice-container {
+    height: 700px;
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.advance-invoice-wrapper {
+    position: relative;
+    height: 94%;
+    width: 94%;
+    /* background-color: yellow; */
+    margin: auto auto;
+    padding-top: 30px;
+}
+
+.top-flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 160px;
+    /* background-color: aliceblue; */
+}
+
+.company-details-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.company-name-wrapper {
+    width: 100%;
+    height: 30%;
+}
+
+#company-name {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 8px;
+    padding-bottom: 3px;
+}
+
+#company-slogan {
+    width: 100%;
+    font-size: 18px;
+    padding-left: 2px;
+}
+
+.address-no-container {
+    width: 100%;
+    height: 50%;
+}
+
+#address {
+    font-size: 17px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+}
+
+#address2 {
+    font-size: 17px;
+    padding-bottom: 3px;
+    padding-left: 25px;
+}
+
+#phone {
+    font-size: 17px;
+    padding-left: 25px;
+}
+
+#phone1 {
+    font-size: 17px;
+    padding-left: 25px;
+}
+
+.invoice-date-container {
+    width: 40%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.invoice-text-wrapper {
+    width: 100%;
+    height: 50%;
+}
+
+#invoice {
+    padding-left: 50px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#invoice-number {
+    font-size: 17px;
+    padding-left: 168px;
+}
+
+#date {
+    font-size: 17px;
+    padding-left: 168px;
+}
+
+
+/*Top section ends*/
+
+
+/*Bill To section*/
+
+.bill-to-wrapper {
+    margin-top: 30px;
+    height: 150px;
+    width: 100%;
+}
+
+#bill-to {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+#name {
+    font-size: 17px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+}
+
+#email {
+    font-size: 17px;
+    padding-bottom: 6px;
+    padding-left: 25px;
+}
+
+#address {
+    font-size: 17px;
+    padding-bottom: 6px;
+    padding-left: 25px;
+}
+
+#city-state {
+    font-size: 17px;
+    padding-bottom: 6px;
+    padding-left: 25px;
+}
+
+#phone {
+    font-size: 17px;
+    padding-left: 25px;
+}
+
+
+/*Bill To Ends*/
+
+
+/*table*/
+
+#table1 {
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr,
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+th {
+    padding: 5px 0;
+}
+
+td {
+    padding: 5px 0;
+}
+
+#qty {
+    width: 10%;
+}
+
+#desc {
+    width: 60%;
+}
+
+#unit-price {
+    width: 15%;
+}
+
+#total {
+    width: 15%;
+}
+
+
+/*table ends*/
+
+
+/*table 2*/
+
+#table2 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: absolute;
+    top: 460px;
+    left: 727px;
+    width: 130px;
+}
+
+.info {
+    position: absolute;
+    top: 460;
+    left: 627px;
+}
+
+#sub-total-text {
+    padding-top: 8px;
+    font-size: 17px;
+}
+
+#tax-amt-text {
+    padding-top: 9px;
+    font-size: 17px;
+}
+
+#total-text {
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/*Table 2 ends*/
+
+
+/*bottom wrapper*/
+
+.bottom-wrapper {
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
+
+#text1,
+#text2,
+#thank-u {
+    padding-top: 6px;
+    font-size: 17px;
+}
+
+#thank-u {
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+#a-prev-tag {
+    position: absolute;
+    left: 600px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#a-next-tag {
+    position: absolute;
+    left: 700px;
+    font-size: 17px;
+    text-decoration: none;
+}

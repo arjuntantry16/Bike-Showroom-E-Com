@@ -1,0 +1,487 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(116, 113, 113, 0.15);
+}
+
+.mybookings-container{
+    width: 100%;
+    height: fit-content;
+}
+
+.mybookings-wrapper{
+    width: 70%;
+    margin: 0 auto;
+    background-color:white;
+}
+
+.mybookings-header-wrapper{
+    width: 100%;
+    height:60px;
+}
+
+#mybookings-header{
+    display: block;
+    color:black;
+    padding-left:40px;
+    padding-top:12px;
+}
+
+.bike-info-container1 {
+    position: relative;
+    display: flex;
+    width:100%;
+    height: 350px;
+    margin: auto auto;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#hr3 {
+    position: absolute;
+    top: 250px;
+    left: 260px;
+    height: 1.5px;
+    background-color: gray;
+    width: 500px;
+}
+
+.bike-image-container1 {
+    width: 40%;
+    height: 90%;
+    margin: auto auto;
+}
+
+.bike-image-wrapper {
+    height: 96%;
+    width: 96%;
+    margin: auto auto;
+    cursor: pointer;
+}
+
+#selected-a1 {
+    text-decoration: none;
+}
+
+#image {
+    height: 80%;
+    width: 80%;
+    padding-top: 70px;
+    padding-left: 60px;
+}
+
+.bike-info {
+    width: 60%;
+    height: 90%;
+    margin: auto auto;
+}
+
+.name-container {
+    height: 60px;
+    width: 100%;
+}
+
+#bikename {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.price-specs-container {
+    position: relative;
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+
+.price-container {
+    width: 49%;
+    height: 100%;
+}
+
+#ex-showroom {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 17px;
+    padding-top: 30px;
+}
+
+#rupee-sign {
+    padding-left: 26%;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+#price {
+    text-align: center;
+    font-size: 17px;
+}
+
+.book-now-button-wrapper {
+    margin-top: 20px;
+    margin-left: 80px;
+    height: 35px;
+    width: 140px;
+    background-color: rgb(37, 190, 31);
+    padding-left: 23px;
+    padding-top: 9px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 0 gray;
+}
+
+.book-now-button-wrapper:hover {
+    transition: .3s;
+    background-color: rgb(21, 114, 18);
+}
+
+#book-a {
+    color: white;
+    text-decoration: none;
+}
+
+#hr2 {
+    position: absolute;
+    top: 70px;
+    left: 250.5px;
+    width: 100px;
+    height: 1.5px;
+    background-color: grey;
+    transform: rotate(90deg);
+}
+
+.specs-container {
+    width: 50%;
+    height: 100%;
+}
+
+#key-specs {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.specs-wrapper {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+#bikespecs {
+    padding-right: 20px;
+    font-size: 17px;
+}
+
+.remove-cart-btn-wrapper {
+    height: 35px;
+    width: 170px;
+}
+
+.remove-cart-btn {
+    margin-top: 4px;
+    margin-left: 75px;
+    height: 35px;
+    width: 160px;
+    background-color: rgb(252, 40, 40);
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-top: 6px;
+    box-shadow: 2.5px 2.5px 2.5px 0 gray;
+}
+
+.remove-cart-btn:hover {
+    background-color: rgb(255, 6, 6);
+}
+
+#remove-a {
+    color: white;
+    text-decoration: none;
+}
+
+.no-results {
+    padding-left: 35px;
+    font-size: 22px;
+}
+
+
+/*bookings-bike*/
+
+.cart-container1 {
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.cart-wrapper1 {
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.header-wrapper1 {
+    height: 60px;
+    width: 100%;
+}
+
+#header11 {
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.bike-info-container1 {
+    position: relative;
+    display: flex;
+    width: 96%;
+    height: 270px;
+    margin: auto auto;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#hr31 {
+    position: absolute;
+    top: 255px;
+    left: 260px;
+    height: 1.5px;
+    background-color: gray;
+    width: 500px;
+}
+
+.bike-image-container1 {
+    width: 40%;
+    height: 90%;
+    margin: auto auto;
+}
+
+.bike-image-wrapper1 {
+    height: 96%;
+    width: 96%;
+    margin: auto auto;
+    cursor: pointer;
+}
+
+#no-results{
+    margin-left:40px;
+    font-size:17px;
+}
+
+#selected-a1 {
+    text-decoration: none;
+}
+
+#image1 {
+    height: 80%;
+    width: 80%;
+    padding-top: 70px;
+    padding-left: 60px;
+}
+
+.bike-info1 {
+    width: 60%;
+    height: 90%;
+    margin: auto auto;
+}
+
+.name-container1 {
+    height: 60px;
+    width: 100%;
+}
+
+#bikename1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.price-specs-container1 {
+    position: relative;
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+
+.price-container1 {
+    width: 49%;
+    height: 100%;
+}
+
+#ex-showroom1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 17px;
+    padding-top: 30px;
+}
+
+#rupee-sign1 {
+    padding-left: 26%;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+#price1 {
+    text-align: center;
+    font-size: 17px;
+}
+
+.book-now-button-wrapper1 {
+    margin-top: 20px;
+    margin-left: 80px;
+    height: 35px;
+    width: 140px;
+    background-color: rgb(37, 190, 31);
+    padding-left: 23px;
+    padding-top: 9px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 0 gray;
+}
+
+.book-now-button-wrapper1:hover {
+    transition: .3s;
+    background-color: rgb(21, 114, 18);
+}
+
+#book-a1 {
+    color: white;
+    text-decoration: none;
+}
+
+#hr21 {
+    position: absolute;
+    top: 70px;
+    left: 250.5px;
+    width: 100px;
+    height: 1.5px;
+    background-color: grey;
+    transform: rotate(90deg);
+}
+
+.specs-container1 {
+    width: 50%;
+    height: 100%;
+}
+
+#key-specs1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.specs-wrapper1 {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+#bikespecs1 {
+    padding-right: 20px;
+    font-size: 17px;
+}
+
+.final-payment-btn-wrapper {
+    height: 35px;
+    width: 170px;
+}
+
+.final-payment-btn {
+    margin-top: 34px;
+    margin-left: -123px;
+    height: 35px;
+    width: 250px;
+    background-color: rgb(37, 190, 31);
+    border-radius: 4px;
+    padding-left: 42px;
+    padding-top: 8px;
+    box-shadow: 2.5px 2.5px 2.5px 0 gray;
+}
+
+.final-payment-btn:hover {
+    background-color: rgb(21, 114, 18);
+}
+
+#remove-a1 {
+    color: white;
+    text-decoration: none;
+}
+
+#duedate {
+    position: absolute;
+    top: 216px;
+    left: 300px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom:10px ;
+    text-align: center;
+}
+
+/*status container*/
+
+.status-container{
+width:100%;
+height:65px;
+}
+
+.status-wrapper{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.payment-status-wrapper{
+    width: 33.3%;
+    height:100%;
+    text-align: center;
+    font-weight:600;
+    font-size:19px;
+}
+
+.estimated-delivery-status-wrapper{
+    width: 33.3%;
+    height:100%;
+    text-align: center;
+    font-weight:600;
+    font-size:19px;
+}
+
+.delivery-status-wrapper{
+    width: 33.3%;
+    height:100%;
+    text-align: center;
+    font-weight:600;
+    font-size:19px;
+}
+
+#paymentpending,#deliverypending{
+    color:red;
+    font-size:18px;
+}
+
+#paymentpaid,#estimated,#delivery{
+    color:green;
+    font-size:18px;
+}
+
+#estimatedred{
+    color:red;
+    font-size:18px;
+}
+
+.bookingno-wrapper{
+    margin-top: 30px;
+    width:100px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#last-hr{
+    height: 2px;
+    background-color:gray;
+}

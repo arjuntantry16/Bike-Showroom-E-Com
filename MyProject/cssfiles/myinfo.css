@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3b8ff0;
+}
+
+.error-container {
+    height: 30px;
+    width: 240px;
+    text-align: center;
+    position: absolute;
+    left: 630px;
+    top: 56px;
+    background-color: white;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+#emptyfields {
+    margin-top: 6px;
+}
+
+.allinfo-contanier{
+    height:fit-content;
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+
+}
+
+.left-info-container{
+    width: 227px;
+    background-color:green;
+    height:100%;
+}
+
+.left-info-wrapper{
+    width:100%;
+    height:100%;
+    display:flex;
+}
+
+.list-items{
+    height:60px;
+    width: 100%;
+}
+
+.header-wrapper{
+    height:60px;
+    width:100%;
+}
+
+#h1{
+    padding-top:15px;
+    padding-left:40px;
+}
+
+.clientinfo-container {
+    width: 100%;
+    height: fit-content;
+}
+
+.clientinfo-wrapper {
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.clientlogo-wrapper {
+    margin: 30px auto 10px auto;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.fa-user1 {
+    height: 80%;
+    width: 80%;
+    font-size: 152px;
+    color: blue;
+    opacity: 0.4;
+}
+
+#username {
+    text-align: center;
+}
+
+#form1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#form1 label {
+    position: absolute;
+}
+
+#email-label {
+    position: absolute;
+    top: 397px;
+    left:580px;
+    font-size: 19px;
+}
+
+#phone-label {
+    position: absolute;
+    top: 450px;
+    left:580px;
+    font-size: 19px;
+}
+#address-label {
+    position: absolute;
+    top: 503px;
+    left:580px;
+    font-size: 19px;
+}
+#city-label {
+    position: absolute;
+    top: 556px;
+    left:580px;
+    font-size: 19px;
+}
+#state-label {
+    position: absolute;
+    top: 609px;
+    left:580px;
+    font-size: 19px;
+}
+
+#clientname{
+    height:35px;
+    width: 200px;
+    margin-left:0px;
+    margin-bottom: 20px;
+    font-weight:600;
+    text-align:center;
+    border:none;
+    font-size:17px;
+}
+
+.fa-edit{
+    cursor: pointer;
+}
+
+#email{
+    height:35px;
+    width:300px;
+    margin-bottom:10px;
+    margin-top:10px;
+    margin-left:260px;
+    font-size:17px;
+}
+
+#phone{
+    height:35px;
+    width:300px;
+    margin-bottom:10px;
+    margin-top:10px;
+    margin-left:260px;
+    font-size:17px;
+}
+
+#address{
+    height:35px;
+    width:300px;
+    margin-bottom:10px;
+    margin-top:10px;
+    margin-left:260px;
+    font-size:17px;
+}
+
+#city{
+    height:35px;
+    width:300px;
+    margin-bottom:10px;
+    margin-top:10px;
+    margin-left:260px;
+    font-size:17px;
+}
+
+#state{
+    height:35px;
+    width:300px;
+    margin-bottom:10px;
+    margin-top:10px;
+    margin-left:260px;
+    font-size:17px;
+}
+
+#btn{
+    margin-top:30px;
+    height:35px;
+    width:80px;
+    color:white;
+    background-color:#3b8ff0;
+    border:none;
+    outline:none;
+    font-weight:600;
+    font-size:17px;
+    margin-bottom:40px;
+}
+
+#btn:hover{
+    background-color:#3b8f00;
+    font-weight:600;
+}
+
+#back-a{
+    text-decoration:none;
+    color:black;
+    margin-left:40px;
+    position:absolute;
+    display:block;
+    font-size:18px;
+    top:700px;
+    left:200px;
+}
+
+

@@ -1,0 +1,330 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0%;
+        padding: 0;
+        /* background: radial-gradient(#acabf1, #807ef5, #1d1df1); */
+        background: url(../images/login-bg3) no-repeat;
+        background-size: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    .loginerrorhandler {
+        padding: 10px;
+        position: absolute;
+        top: 16%;
+        left: 18%;
+        /* transform: translate(-50%, -30%); */
+        color: black;
+        font-size: 19px;
+        height: 40px;
+        width: fit-content;
+        background-color: #33f711;
+        border-radius: 15px;
+    }
+    
+    .center {
+        width: 400px;
+        margin: 130px 80px 130px 200px;
+        position: relative;
+        padding-top: 50px;
+    }
+    
+    .center .header {
+        font-size: 28px;
+        font-weight: bold;
+        color: white;
+        padding: 25px 0 10px 25px;
+        /* background: linear-gradient(rgb(255, 255, 255, 0.5), rgb(255, 255, 255, 1)); */
+        background: transparent;
+        /*#3b73da*/
+    }
+    
+    .header .login {
+        color: white;
+        margin-left: -5px;
+        padding-left: 0px;
+        /* border-bottom: 2.7px solid #39ff14; */
+        width: 76px;
+        padding-bottom: 1px;
+        margin-top:10px;
+    }
+    
+    .header {
+        position: relative;
+    }
+    /* .after-sign-in {
+        position: absolute;
+        top: 380px;
+        left: 168px;
+        padding: 3px 10px 5px 15px;
+        height: 5px;
+        font-size: 17px;
+        width: 20px;
+        text-align: center;
+        font-weight: 350;
+        display: inline;
+        border: 2px solid black;
+        background-color: #291d99;
+        border-radius: 8px;
+        box-shadow: 0 0 3px black;
+        transition: 0.3s;
+        visibility: hidden;
+        transform: translate(0, -50px);
+    }
+    
+    .sign-in-success {
+        top: 380px;
+        left: 90px;
+        height: 30px;
+        width: 170px;
+        transition: 0.3s;
+        transform: translate(0, 30px);
+        visibility: visible;
+        background-color: #291d99;
+        font-weight: 350;
+        color: whitesmoke;
+    } */
+    
+    .center form {
+        position: relative;
+        /* background: linear-gradient(rgb(255, 255, 255, 1), rgb(255, 255, 255, 0.5)); */
+        background: transparent;
+        width: 100%;
+        padding: 50px 10px 0 30px;
+        box-sizing: border-box;
+        /* border: 1px solid #4c2bc2; */
+        border-radius: 0 0 5px 5px;
+        z-index: 1;
+        color: whitesmoke;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    form input {
+        height: 50px;
+        width: 90%;
+        padding: 0 10px;
+        border-radius: 3px;
+        border: 1px solid rgb(0, 0, 0, 0.5);
+        font-size: 16px;
+        outline: none;
+        color: white;
+        background: transparent;
+    }
+    
+    form form input:focus {
+        background-color: transparent;
+    }
+    
+    form input[type="text"] {
+        margin-top: -20px;
+        margin-left: -17px;
+        border-bottom: 2px solid #39ff14;
+    }
+    
+    form input[type="password"] {
+        margin-top: -20px;
+        border-bottom: 2px solid #39ff14;
+        margin-top: 20px;
+        margin-left: -17px;
+    }
+    
+    form button {
+        margin: 40px 15px 23px -17px;
+        width: 90%;
+        height: 45px;
+        color: white;
+        /*white*/
+        cursor: pointer;
+        line-height: 45px;
+        border-radius: 45px;
+        border-radius: 5px;
+        padding-bottom: 30px;
+        background: transparent;
+        font-size: 19px;
+        /*#3f56db*/
+        border: 2px solid #39ff14;
+    }
+    
+    button {
+        height: 50px;
+        width: 90%;
+        padding: 0 10px;
+        border-radius: 3px;
+        border: 1px solid rgb(0, 0, 0, 0.5);
+        font-size: 16px;
+        outline: none;
+        color: white;
+        background: transparent;
+    }
+    
+    form button:hover {
+        background: #33f711;
+        transition: .2s;
+        color: black;
+        border: 3px solid black;
+    }
+    
+    form input::placeholder {
+        color: rgb(163, 160, 160);
+        font-weight: 100;
+        font-size: 18px;
+    }
+    
+    form i {
+        position: absolute;
+        font-size: 20px;
+        color: white;
+        margin: 35px 0 0 -40px;
+    }
+    /*DROP DOWN LIST*/
+    
+    form .ddl-container {
+        position: absolute;
+        width: 90px;
+        height: 25px;
+        top: 10px;
+        left: 15px;
+        margin: 0;
+        padding-left: 9px;
+        padding-top: 2px;
+        color: white;
+        font-size: 19.3px;
+        border-bottom: 2px solid #39ff14;
+        padding-bottom: 25px;
+        /*black*/
+    }
+    
+    form .ddl-container:hover {
+        background-color: black;
+        color: white;
+        border-bottom: 2px solid #39ff14;
+        transition: .2s;
+    }
+    
+    .user-ddl {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        top: 37px;
+        left: 15px;
+        width: 90px;
+        visibility: hidden;
+        transition: .1s;
+    }
+    
+    .user-ddl li {
+        background: black;
+        padding-top: 5px;
+        padding-left: 10px;
+        color: white;
+        /*rgb(14, 13, 13)*/
+        list-style-type: none;
+    }
+    
+    .user-ddl li a {
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    
+    .user-ddl li:hover {
+        background-color: black;
+        border-bottom: 2px solid #39ff14;
+        transition-duration: .2s;
+        color: white;
+    }
+    
+    .fa-angle-down {
+        z-index: 999;
+        position: absolute;
+        top: -22.5px;
+        left: 122px;
+    }
+    /*DROP DOWN LIST ENDS*/
+    
+    form .fa-user {
+        color: #39ff14;
+        margin-top: -1px;
+        margin-left: -52px;
+    }
+    
+    form .fa-user:hover {
+        color: #20b106;
+    }
+    
+    form .fa-eye {
+        visibility: visible;
+        color: #39ff14;
+        margin-top: 35px;
+        margin-left: -55px;
+    }
+    
+    form .fa-eye-slash {
+        color: #39ff14;
+        position: absolute;
+        top: 86px;
+        left: 321px;
+        visibility: hidden;
+        cursor: pointer;
+    }
+    
+    form .fa-eye:hover {
+        color: #20b106;
+    }
+    
+    form .fa-eye-slash:hover {
+        color: #20b106;
+    }
+    
+    form a {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        /*#3f56db*/
+    }
+    
+    form #not-member {
+        position: absolute;
+        top: 263.5px;
+        left: 210px;
+        white-space: nowrap;
+        color: white;
+        border-bottom: 2px solid #39ff14;
+    }
+    
+    form #not-member:hover {
+        font-weight: bold;
+        transition: .2s;
+        border-bottom: 2px solid #39ff14;
+    }
+    
+    form #forgot-password {
+        margin-left: -15px;
+        color: white;
+        border-bottom: 2px solid #39ff14;
+    }
+    
+    form #forgot-password:hover {
+        font-weight: bold;
+        border-bottom: 2px solid #39ff14;
+    }
+    
+    form img {
+        height: 30%;
+        width: 25%;
+        position: absolute;
+        margin: 30px 0 0 -45px;
+    }
+    
+    form img:hover {
+        cursor: pointer;
+    }
+    
+    .fa-eye:hover {
+        cursor: pointer;
+    }
